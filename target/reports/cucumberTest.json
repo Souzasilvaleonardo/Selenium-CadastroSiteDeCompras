@@ -1,0 +1,100 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Registrar novo usuário com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;registrar-novo-usuário-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7171894500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou no site yourlogo",
+            "match": {
+              "location": "LoginSteps.que_estou_no_site_yourlogo()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 418704200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou no campo de cadastro",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2303928000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulário de cadastro",
+            "match": {
+              "location": "CadastroSteps.eu_preencho_o_formulário_de_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6384775800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico em registrar",
+            "match": {
+              "location": "CadastroSteps.clico_em_registrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 100851900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "vejo a mensagem de cadastro realizado com sucesso.",
+            "match": {
+              "location": "CadastroSteps.vejo_a_mensagem_de_cadastro_realizado_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@cadastro-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuário",
+    "description": "",
+    "id": "cadastro-de-usuário",
+    "keyword": "Funcionalidade",
+    "uri": "cadastro_usuario.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@cadastro"
+      }
+    ]
+  }
+]
